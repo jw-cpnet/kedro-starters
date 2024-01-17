@@ -15,6 +15,7 @@ https://docs.kedro.org/en/stable/kedro_project_setup/settings.html."""
 from pathlib import Path  # noqa: E402
 
 from kedro_viz.integrations.kedro.sqlite_store import SQLiteStore  # noqa: E402
+from omegaconf.resolvers import oc # noqa: E402
 
 # Class that manages storing KedroSession data.
 SESSION_STORE_CLASS = SQLiteStore
