@@ -37,6 +37,9 @@ CONFIG_LOADER_CLASS = OmegaConfigLoader
 CONFIG_LOADER_ARGS = {
       "base_env": "base",
       "default_run_env": "local",
+      "custom_resolvers": {
+          "oc.env": oc.env,
+      }
 #       "config_patterns": {
 #           "spark" : ["spark*/"],
 #           "parameters": ["parameters*", "parameters*/**", "**/parameters*"],
